@@ -1,0 +1,5 @@
+test_with_coverage:
+    stage: test
+    image: gradle:8.0.2
+    script:
+        - gradle test
